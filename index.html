@@ -79,57 +79,77 @@
       <p>БАРБЕРШОП «БОРОДИНСКИЙ»<br>
         АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8<br>
         ТЕЛЕФОН: +7 (495) 666-02-66</p>
-      <p>ВРЕМЯ РАБОТЫ:<br>
-        ПН—ПТ: С 10:00 ДО 22:00<br>
-        СБ—ВС: С 10:00 ДО 19:00</p>
-      <a class="button" href="#">КАК ПРОЕХАТЬ</a>
-      <a class="button" href="#">ОБРАТНАЯ СВЯЗЬ</a>
+        <p>ВРЕМЯ РАБОТЫ:<br>
+          ПН—ПТ: С 10:00 ДО 22:00<br>
+          СБ—ВС: С 10:00 ДО 19:00</p>
+          <a class="button" href="#">КАК ПРОЕХАТЬ</a>
+          <a class="button" href="#">ОБРАТНАЯ СВЯЗЬ</a>
     </section>
         
-    <section class="enroll">
-      <h2 class="header">КОНТАКТНАЯ ИНФОРМАЦИЯ</h2>
-      <form action="#" method="post">
-        <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
-        <label for="date-field">ДАТА</label>
-        <input type="text" name="date" id="date-field" placeholder="08.10.2017">
-        <label for="time-field">ВРЕМЯ</label>
-        <input type="text" name="time" id="time-field" placeholder="10:00">
-        <label for="clientName-field">ВАШЕ ИМЯ</label>
-        <input type="text" name="clientName" id="clientName-field" placeholder="Борода">
-        <label for="clientPhone-field">ТЕЛЕФОН</label>
-        <input type="text" name="clientPhone" id="clientPhone-field" placeholder="+7 123 456-78-90">
-        <input type="submit" name="submit" value="ОТПРАВИТЬ">
-      </form>
+        <section class="enroll">
+          <h2 class="header">ЗАПИСАТЬСЯ</h2>
+          <form action="#" method="post">
+            <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+            <label for="date-field">ДАТА</label>
+            <input type="text" name="date" id="date-field" placeholder="08.10.2017">
+            <label for="time-field">ВРЕМЯ</label>
+            <input type="text" name="time" id="time-field" placeholder="10:00">
+            <label for="clientName-field">ВАШЕ ИМЯ</label>
+            <input type="text" name="clientName" id="clientName-field" placeholder="Борода">
+            <label for="clientPhone-field">ТЕЛЕФОН</label>
+            <input type="text" name="clientPhone" id="clientPhone-field" placeholder="+7 123 456-78-90">
+            <input type="submit" name="submit" value="ОТПРАВИТЬ">
+          </form>
           
-    </section>
+        </section>
+        
+      </main>
+      
+      <footer class="main-footer">
+        <section class="adress">
+          <h2 class="visually-hidden">АДРЕС</h2>
+          <p>
+            БАРБЕРШОП «БОРОДИНСКИЙ»<br>
+            АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>      
+            <a href="#">КАК НАС НАЙТИ?</a> <br>
+            ТЕЛЕФОН: +7 (495) 666-02-66
+          </p>            
+        </section>
+        
+        <section class="social">
+          <h2 class="visually-hidden">соцсети</h2>
+          <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
+          <a href="#" class="button vkontakte">ВКОНТАКТЕ</a>
+          <a href="#" class="button facebook">FACEBOOK</a>
+          <a href="#" class="button instagram">INSTAGRAM</a>
+        </section>
+        
+        <section class="produced">
+          <b>РАЗРАБОТАНО:</b>
+          <a href="#" class="button">html academy</a>
+        </section>
+        
+      </footer>
+      
+      <section class="modal-cabinet">
+        <h2 class="header">ЛИЧНЫЙ КАБИНЕТ</h2>
+        <form action="#" method="post" name="cabinet" class="cabinet">
+          <p>ВВедите пожалуйста свой логин и пароль</p>
+          <input type="text" name="login" placeholder="ЛОГИН">
+          <input type="password" name="password" placeholder="ПАРОЛЬ">
+          <input type="checkbox" name="remember" checked id="remember-field">
+          <label for="remember-field">ЗАПОМНИТЕ МЕНЯ</label>
+          <a href="#">Я ЗАБЫЛ ПАРОЛЬ!</a>
+          <input type="submit" name="enter" value="ВОЙТИ">
+        </form>        
+        <span class="cross-exit">x</span>
+      </section>
 
-  </main>
-
-  <footer class="main-footer">
-    <section class="adress">
-      <h2 class="visually-hidden">АДРЕС</h2>
-      <p>
-        БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-        АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>      
-        <a href="#">КАК НАС НАЙТИ?</a> <br>
-        ТЕЛЕФОН: +7 (495) 666-02-66
-      </p>            
-    </section>
-    
-    <section class="social">
-      <h2 class="visually-hidden">соцсети</h2>
-      <b>ДАВАЙТЕ ДРУЖИТЬ!</b>
-      <a href="#" class="button vkontakte">ВКОНТАКТЕ</a>
-      <a href="#" class="button facebook">FACEBOOK</a>
-      <a href="#" class="button instagram">INSTAGRAM</a>
-    </section>
-    
-    <section class="produced">
-      <b>РАЗРАБОТАНО:</b>
-      <a href="#" class="button">html academy</a>
-    </section>
-
-  </footer>
-  
-</body>
-</html>
+      <section class="modal-map">
+        <h2 class="visually-hidden">КАРТА</h2>
+        <div class="map"></div>
+        <span class="cross-exit">x</span>
+      </section>
+      
+    </body>
+    </html>
